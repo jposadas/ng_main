@@ -9,6 +9,9 @@
 
 	<body id="body" ng-app="outfittery" ng-controller="main">
 
+		<div class="stateLoader" ng-show="isStateLoading">
+			<img src="ajax-loader.gif" />
+		</div>
 	    <div class="mt-nav" ui-view></div>
 
 	    <script type="text/javascript" src="angular.js"></script>

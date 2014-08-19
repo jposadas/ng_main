@@ -50,13 +50,26 @@ app.config(['$urlRouterProvider', '$stateProvider', function($urlRouterProvider,
 
 }]);
 
-app.controller('main', ['$scope', 'mainData', function($scope, mainData) {
+app.controller('main', ['$scope', '$rootScope', 'mainData', function($scope, $rootScope, mainData) {
+
+	$scope.isStateLoading = true;
 
 	$scope.$on('switchingRegistrationPart', function(event, args) {
 		for(key in args) {
 			mainData.pushData(key, args[key]);
 		}
 	});
+
+	$rootScope.$on('$stateChangeStart', 
+		function(event, toState, toParams, fromState, fromParams){
+			console.log("CHANGING STATES");
+			$scope.isStateLoading = true;
+		});
+	$rootScope.$on('$stateChangeSuccess', 
+		function(event, toState, toParams, fromState, fromParams){
+			console.log("CHANGING STATES FINISHED");
+			$scope.isStateLoading = false;
+		});
 
 }]);
 
@@ -133,7 +146,7 @@ app.controller('questionCtrl', ['$scope', '$rootScope', 'tmpData', function($sco
 	$scope.questionID = questionID;
 	$scope.answer = tmpData.getValue(questionID);
 	$scope.submit = function(answer) {
-		console.log('trying to submit ' + answer);
+		// console.log('trying to submit ' + answer);
 		$rootScope.$broadcast('questionAnswered', {questionID: questionID, answer: answer, order: questionOrder});
 	};
 }]);
@@ -164,14 +177,14 @@ app.factory('tmpData', function() {
 		},
 		pushData: function(key, value) {
 			data[key] = value;
-			console.log(data);
+			// console.log(data);
 		},
 		clearData: function() {
-			console.log("===== Before Cleaning =====");
-			console.log(data);
+			// console.log("===== Before Cleaning =====");
+			// console.log(data);
 			data = {};
-			console.log("===== After Cleaning =====");
-			console.log(data);
+			// console.log("===== After Cleaning =====");
+			// console.log(data);
 		}
 	};
 });
@@ -187,7 +200,7 @@ app.factory('mainData', function() {
 		},
 		pushData: function(key, value) {
 			data[key] = value;
-			console.log(data);
+			// console.log(data);
 		}
 	}
 });
