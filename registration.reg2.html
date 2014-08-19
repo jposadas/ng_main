@@ -1,0 +1,26 @@
+<div class="container">
+	
+	<h3>Enter some more of your details below</h3>
+
+	<div class="row" ng-controller="regStep2">
+		
+
+			<form role="form" ng-submit="addInfo(email, password)">
+
+				<div class="col-md-4">
+					<div class="form-group">
+						<label>Email</label>
+						<input type="email" ng-model="email" class="form-control" placeholder="Enter you email">
+					</div>
+					<div class="form-group">
+						<label>Password</label>
+						<input type="password" ng-model="password" class="form-control" placeholder="Enter your password">
+					</div>
+					<button type="submit" class="btn btn-default">Submit</button>
+				</div>
+
+			</form>
+
+		</div>
+	</div>
+</div>

@@ -1,0 +1,33 @@
+<div class="container">
+	
+	<h3>Enter some of your details below</h3>
+
+	<div class="row" ng-controller="regStep">
+		
+
+			<form role="form" ng-submit="addInfo(salutation, firstName, lastName)">
+
+				<div class="col-md-4">
+					<div class="form-group">
+						<label>Salutation</label>
+						<select class="form-control" ng-model="salutation">
+						  <option>Herr</option>
+						  <option>Frau</option>
+						</select>
+					</div>
+					<div class="form-group">
+					  <label for="inputEmail">Name</label>
+					  <input type="text" ng-model="firstName" class="form-control" placeholder="Enter your first name">
+					</div>
+					<div class="form-group">
+					  <label for="exampleInputPassword1">Last Name</label>
+					  <input type="text" ng-model="lastName" class="form-control" placeholder="Enter your last name">
+					</div>
+					<button type="submit" class="btn btn-default">Submit</button>
+				</div>
+
+			</form>
+
+		</div>
+	</div>
+</div>

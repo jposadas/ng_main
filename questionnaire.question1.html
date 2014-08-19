@@ -1,0 +1,32 @@
+<section class="question" data-question-id="picClothWork" data-question-order="1" id="currentQuestion">
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<p class="text-center lead">Question 1 | {{questionID}}</p>
+			</div>
+		</div>
+		<hr />
+		<div class="row text-center">
+			<div class="col-sm-1">
+				<a ui-sref="questionnaire.question3" class="btn btn-large btn-default">Prev</a>
+			</div>
+			<div class="col-sm-3">
+				<p>Option 1</p>
+				<input type="radio" ng-model="answer" ng-change="submit(answer)" value="option1" />
+			</div>
+			<div class="col-sm-4">
+				<p>Option 2</p>
+				<input type="radio" ng-model="answer" ng-change="submit(answer)" value="option2" />
+			</div>
+			<div class="col-sm-3">
+				<p>Option 3</p>
+				<input type="radio" ng-model="answer" ng-change="submit(answer)" value="option3" />
+			</div>
+			<div class="col-sm-1">
+				<a ui-sref="questionnaire.question2" class="btn btn-large btn-default">Next</a>
+			</div>
+		</div>
+	</div>
+
+</section>
