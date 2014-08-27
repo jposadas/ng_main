@@ -13,9 +13,10 @@
 		</div>
 		<div 
 		
+		
 
-		<div class="row" ng-repeat="outfit in data.outfits">
-			
+		<div class="row" ng-repeat-start="outfit in data.outfits">
+
 			<h2 class="text-center">Outfit N°<span ng-bind="outfit.id"></span></h2>
 			<hr />
 			<div class="col-md-3 col-sm-4 item text-center" ng-repeat-start="item in outfit.items">
@@ -37,6 +38,11 @@
 			</div>
 			<div class="clearfix visible-md visible-lg" ng-repeat-end ng-if="($index % 4) == 3"></div>
 			<div class="clearfix visible-sm" ng-repeat-end ng-if="($index % 3) == 2"></div>
+		</div>
+		<div class="row more-outfits" ng-repeat-end>
+			<div class="col-xs-12 text-center">
+				<a class="btn btn-lg btn-default" ui-sref="banner.list">Check out more styles</a>
+			</div>
 		</div>
 
 	</div>
