@@ -1,0 +1,260 @@
+{  
+  "payload":{  
+    "id":152048822,
+    "name":"My Best Friend's Wedding",
+    "outfits":[  
+      {  
+        "items":[  
+          {  
+            "id":152048823,
+            "brand":"Tommy Hilfiger Tailored",
+            "color":"navy",
+            "title":"Tommy Hilfiger Tailored Butch STSSLD99001 navy",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/78503307@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/78503307@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/78503307@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/78503307@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/78503307@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/78503307@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152048824,
+            "brand":"Strellson Premium",
+            "color":"weiß",
+            "title":"Strellson Premium L-Quentin weiß",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/8147027@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/8147027@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/8147027@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/8147027@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/8147027@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/8147027@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152048825,
+            "brand":"Jacques Britt",
+            "color":"hellblau",
+            "title":"Jacques Britt Kai Mix 100 hellblau",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/128290715@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/128290715@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/128290715@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/128290715@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/128290715@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/128290715@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152048826,
+            "brand":"Bugatti",
+            "color":"weiß",
+            "title":"Bugatti SUN (Rundhals Doppelpack) weiß",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/12089365@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/12089365@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/12089365@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/12089365@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/12089365@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/12089365@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152048827,
+            "brand":"Tommy Hilfiger Tailored",
+            "color":"navy",
+            "title":"Tommy Hilfiger Tailored Rhames STSSLD99001 navy",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/78503343@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/78503343@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/78503343@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/78503343@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/78503343@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/78503343@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152048828,
+            "brand":"Tommy Hilfiger Tailored",
+            "color":"hellblau",
+            "title":"Tommy Hilfiger Tailored Tie 7.5cm TTSDSN14402 hellblau",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/139987380@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/139987380@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/139987380@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/139987380@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/139987380@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/139987380@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152048829,
+            "brand":"Lloyd",
+            "color":"dunkelbraun",
+            "title":"Lloyd Hutching dunkelbraun",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/64977147@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/64977147@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/64977147@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/64977147@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/64977147@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/64977147@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152048830,
+            "brand":"Tommy Hilfiger",
+            "color":"chocolate_brown",
+            "title":"Tommy Hilfiger BOSTON BELT chocolate_brown",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/143657318@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/143657318@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/143657318@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/143657318@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/143657318@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/143657318@6.1.jpeg"
+            ],
+            "price":null
+          }
+        ],
+        "imageUrl":"https://d131c71en3lye7.cloudfront.net/assets/previews/topicboxes/152048822/outfit1.jpg",
+        "id":"1"
+      },
+      {  
+        "items":[  
+          {  
+            "id":152048831,
+            "brand":"Selected Homme",
+            "color":"dunkelgrau",
+            "title":"Selected Homme One Mylo Don dunkelgrau",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/87358152@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/87358152@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/87358152@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/87358152@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/87358152@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/87358152@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152048832,
+            "brand":"Selected Homme",
+            "color":"weiß",
+            "title":"Selected Homme One Mood shirt  weiß",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/74523314@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/74523314@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/74523314@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/74523314@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/74523314@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/74523314@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152048833,
+            "brand":"Scotch & Soda",
+            "color":"hellblau",
+            "title":"Scotch & Soda 2 tone twill with roll-up sleeves hellblau",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/66489940@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/66489940@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/66489940@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/66489940@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/66489940@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/66489940@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152048834,
+            "brand":"Selected Homme",
+            "color":"schwarz",
+            "title":"Selected Homme sel structure tie  schwarz",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/64977008@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/64977008@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/64977008@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/64977008@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/64977008@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/64977008@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152048835,
+            "brand":"Tommy Hilfiger Tailored",
+            "color":"grau",
+            "title":"Tommy Hilfiger Tailored Tie 7.5cm TTSSLD14401 grau",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/139987152@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/139987152@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/139987152@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/139987152@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/139987152@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/139987152@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152048836,
+            "brand":"Selected Homme",
+            "color":"navy",
+            "title":"Selected Homme One Mylo Don navy",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/76994725@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/76994725@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/76994725@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/76994725@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/76994725@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/76994725@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152048837,
+            "brand":"Bugatti",
+            "color":"cognac",
+            "title":"Bugatti Renato cognac",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/10518286@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/10518286@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/10518286@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/10518286@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/10518286@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/10518286@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152048838,
+            "brand":"Strellson Premium",
+            "color":"cognac",
+            "title":"Strellson Premium Premium Belt 3 cm cognac",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/85058985@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/85058985@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/85058985@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/85058985@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/85058985@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/85058985@6.1.jpeg"
+            ],
+            "price":null
+          }
+        ],
+        "imageUrl":"https://d131c71en3lye7.cloudfront.net/assets/previews/topicboxes/152048822/outfit2.jpg",
+        "id":"2"
+      }
+    ]
+  }
+}

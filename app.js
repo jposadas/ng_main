@@ -46,6 +46,14 @@ app.config(['$urlRouterProvider', '$stateProvider', function($urlRouterProvider,
 		.state('banner', {
 			url: '/banner',
 			templateUrl: 'banner.html'
+		})
+		.state('banner.list', {
+			url: '/list',
+			templateUrl: 'banner.list.html'
+		})
+		.state('banner.outfit', {
+			url: '/outfit/:id',
+			templateUrl: 'banner.outfit.html'
 		});
 
 }]);
@@ -87,7 +95,7 @@ app.controller('registrationCtrl', ['$scope', '$rootScope', 'tmpData', '$state',
 
 	$scope.$on('finishedRegistration', function(event) {
 		$rootScope.$broadcast('switchingRegistrationPart', {registration: tmpData.getData()});
-		$state.go('banner');
+		$state.go('banner.list');
 	});
 
 }]);
@@ -163,6 +171,32 @@ app.controller('submitCtrl', ['$scope', '$rootScope',  '$window', '$state', 'tmp
 
 }]);
 
+app.controller('bannerCtrl', ['$scope', '$http', function($scope, $http) {
+	$http.get('api/topicboxes.json').success(function(data) {
+		$scope.previews = data.payload;
+	});
+}]);
+
+app.controller('bannerOutfitCtrl', ['$scope', '$stateParams', '$http', 'tmpData', function($scope, $stateParams, $http, tmpData) {
+	var url = 'api/customerpreviewget/' + $stateParams.id + '.json';
+	$http.get(url).success(function(data) {
+		$scope.data = data.payload;
+	});
+
+	$scope.dislike = function(id) {
+		tmpData.pushData(id, false);
+	};
+	$scope.like = function(id) {
+		tmpData.pushData(id, true);
+	};
+	$scope.itemStatus = function(id) {
+		// return !!tmpData.getData(id);
+		// console.log(id + ': ' + !!tmpData.getValue(id));
+		return tmpData.getValue(id)
+	};
+
+}]);
+
 app.factory('tmpData', function() {
 	var data = {};
 	return {
@@ -177,14 +211,10 @@ app.factory('tmpData', function() {
 		},
 		pushData: function(key, value) {
 			data[key] = value;
-			// console.log(data);
+			console.log(data);
 		},
 		clearData: function() {
-			// console.log("===== Before Cleaning =====");
-			// console.log(data);
 			data = {};
-			// console.log("===== After Cleaning =====");
-			// console.log(data);
 		}
 	};
 });

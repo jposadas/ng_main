@@ -1,0 +1,43 @@
+<section ng-controller="bannerOutfitCtrl">
+	<div class="container">
+		<h1 class="text-warning"><span ng-bind="data.name"></span></h1>
+		<div class="row">
+			<div class="col-md-3">
+				<img class="img-responsive" src="assets/stylist.png"/>
+			</div>
+			<div class="col-md-6">
+				<h2>Ihre OUTFIT-Auswahl</h2>
+				<p>Bitte wählen Sie aus den folgenden Artikeln die aus, die Ihr persönlicher Style-Experte in Ihre OUTFITTERY-Box legen darf. Ihre Wunschartikel bekommen Sie in passenden Outfits bequem &amp; kostenlos nach Hause. </p>
+				<p>Daumen nach oben bedeutet, der Artikel gefällt Ihnen. Daumen nach unten bedeutet wir konnten Ihren Geschmack leider mit diesem Artikel nicht treffen. Nachdem Sie Ihre Auswahl getroffen haben, klicken Sie bitte auf "Jetzt Box bestellen" am Ende der Seite.</p>
+			</div>
+		</div>
+		<div 
+		
+
+		<div class="row" ng-repeat="outfit in data.outfits">
+			
+			<h2 class="text-center">Outfit N°<span ng-bind="outfit.id"></span></h2>
+			<hr />
+			<div class="col-md-3 col-sm-4 item text-center" ng-repeat-start="item in outfit.items">
+				<p><strong><span ng-bind="item.brand"></span></strong></p>
+				<p class="text-uppercase"><small><span ng-bind="item.color"></span></small></p>
+				<img class="img-item img-thumbnail" ng-src="{{item.images[0]}}" />
+				<div class="row">
+					<div class="col-xs-3 col-xs-offset-3">
+						<button class="btn btn-primary btn-white-primary" ng-class="{'active': itemStatus(item.id) === true}" ng-click="like(item.id)">
+                    		<span class="glyphicon glyphicon-thumbs-up"></span>
+                    	</button>
+					</div>
+					<div class="col-xs-3">
+						<button class="btn btn-danger btn-white-danger" ng-class="{'active': itemStatus(item.id) === false}" ng-click="dislike(item.id)">
+                    		<span class="glyphicon glyphicon-thumbs-down"></span>
+                    	</button>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix visible-md visible-lg" ng-repeat-end ng-if="($index % 4) == 3"></div>
+			<div class="clearfix visible-sm" ng-repeat-end ng-if="($index % 3) == 2"></div>
+		</div>
+
+	</div>
+</section>

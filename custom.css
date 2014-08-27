@@ -17,3 +17,100 @@ header {
 	left: 20px;
 	z-index: 2048;
 }
+
+.navbar-header {
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.logo
+{
+margin-top: 6px;
+margin-right: 15px;
+margin-bottom: 0;
+margin-left: 8px;
+width: 217px;
+height: 31px;
+background: url('assets/logo-inverse.png') no-repeat;
+display: block;
+float: left;
+background-size: contain;
+}
+
+.banner {
+	margin-bottom: 20px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/*min-height: 300px;*/
+	padding-top: 50px;
+	padding-bottom: 80px;
+	text-align: center;
+}
+
+.img-item {
+	max-width: 80%;
+	height: auto;
+	margin-bottom: 10px;
+}
+.img-item:hover {
+	cursor: pointer;
+}
+
+.item {
+	margin-bottom: 30px;
+}
+
+.item p {
+	margin-bottom: 0;
+}
+
+.btn:focus, .btn:active, .btn:focus:active, .btn.active:focus {
+	outline: none;
+}
+
+.btn-white-primary {
+	color: #2880a3;
+	background-color: #fff;
+	border-color: #2880a3;
+}
+
+.btn-white-danger {
+	color: #902e25;
+	background-color: #fff;
+	border-color: #7c2820
+}
+
+/* Side notes for calling out things
+-------------------------------------------------- */
+ 
+/* Base styles (regardless of theme) */
+.bs-callout {
+  margin: 20px 0;
+  padding: 15px 30px 15px 15px;
+  border-left: 5px solid #eee;
+}
+.bs-callout h4 {
+  margin-top: 0;
+}
+.bs-callout p:last-child {
+  margin-bottom: 0;
+}
+.bs-callout code,
+.bs-callout .highlight {
+  background-color: #fff;
+}
+ 
+/* Themes for different contexts */
+.bs-callout-danger {
+  background-color: #fcf2f2;
+  border-color: #dFb5b4;
+}
+.bs-callout-warning {
+  background-color: #fefbed;
+  border-color: #f1e7bc;
+}
+.bs-callout-info {
+  background-color: #f0f7fd;
+  border-color: #d0e3f0;
+}

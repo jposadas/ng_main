@@ -1,0 +1,260 @@
+{  
+  "payload":{  
+    "id":152047411,
+    "name":"Summer Vacation",
+    "outfits":[  
+      {  
+        "items":[  
+          {  
+            "id":152047412,
+            "brand":"Tom Tailor",
+            "color":"weiß",
+            "title":"Tom Tailor Ray tokyo oxford shirt weiß",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/62652590@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/62652590@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/62652590@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/62652590@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/62652590@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/62652590@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152047413,
+            "brand":"Otto Kern",
+            "color":"orange",
+            "title":"Otto Kern Polo Knopf orange",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/14560233@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/14560233@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/14560233@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/14560233@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/14560233@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/14560233@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152047414,
+            "brand":"Ben Sherman",
+            "color":"blau",
+            "title":"Ben Sherman BRETON STRIPE TEE blau",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/66243658@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/66243658@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/66243658@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/66243658@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/66243658@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/66243658@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152047415,
+            "brand":"McNeal",
+            "color":"weiß",
+            "title":"McNeal T-Shirt weiß",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/66755217@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/66755217@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/66755217@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/66755217@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/66755217@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/66755217@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152047416,
+            "brand":"Strellson Sportswear",
+            "color":"beige",
+            "title":"Strellson Sportswear Siri- D beige",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/128029866@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/128029866@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/128029866@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/128029866@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/128029866@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/128029866@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152047417,
+            "brand":"Polo Ralph Lauren",
+            "color":"blau",
+            "title":"Polo Ralph Lauren Traveler Short blau",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/91206836@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/91206836@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/91206836@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/91206836@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/91206836@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/91206836@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152047418,
+            "brand":"Pantafola dOro",
+            "color":"braun",
+            "title":"Pantafola dOro ASCOLI PICENO LOW MEN braun",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/721332@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/721332@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/721332@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/721332@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/721332@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/721332@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152047419,
+            "brand":"Gant",
+            "color":"blau",
+            "title":"Gant Breeze blau",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/92060201@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/92060201@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/92060201@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/92060201@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/92060201@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/92060201@6.1.jpeg"
+            ],
+            "price":null
+          }
+        ],
+        "imageUrl":"https://d131c71en3lye7.cloudfront.net/assets/previews/topicboxes/152047411/outfit1.jpg",
+        "id":"1"
+      },
+      {  
+        "items":[  
+          {  
+            "id":152047420,
+            "brand":"Jack & Jones Premium&Vintage",
+            "color":"blau",
+            "title":"Jack & Jones Premium&Vintage phoenix basic zip sweat blau",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/62320253@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/62320253@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/62320253@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/62320253@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/62320253@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/62320253@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152047421,
+            "brand":"Jack & Jones Core&Originals",
+            "color":"dunkelbeige",
+            "title":"Jack & Jones Core&Originals floral polo dunkelbeige",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/62652711@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/62652711@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/62652711@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/62652711@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/62652711@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/62652711@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152047422,
+            "brand":"Marc O'Polo",
+            "color":"mint",
+            "title":"Marc O'Polo T-Shirt mint",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/88516278@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/88516278@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/88516278@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/88516278@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/88516278@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/88516278@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152047423,
+            "brand":"JUNIQE",
+            "color":"grau",
+            "title":"JUNIQE Eszet in black grau",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/109819322@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/109819322@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/109819322@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/109819322@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/109819322@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/109819322@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152047424,
+            "brand":"Jack & Jones Core&Originals",
+            "color":"blau",
+            "title":"Jack & Jones Core&Originals basic tank blau",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/62801049@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/62801049@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/62801049@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/62801049@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/62801049@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/62801049@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152047425,
+            "brand":"Solid",
+            "color":"beige",
+            "title":"Solid Hertz beige",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/120124899@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/120124899@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/120124899@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/120124899@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/120124899@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/120124899@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152047426,
+            "brand":"Selected Homme",
+            "color":"indigo",
+            "title":"Selected Homme Classic League swimshorts indigo",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/129927044@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/129927044@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/129927044@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/129927044@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/129927044@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/129927044@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152047427,
+            "brand":"Gant",
+            "color":"blau",
+            "title":"Gant Hero blau",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/111409638@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/111409638@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/111409638@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/111409638@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/111409638@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/111409638@6.1.jpeg"
+            ],
+            "price":null
+          }
+        ],
+        "imageUrl":"https://d131c71en3lye7.cloudfront.net/assets/previews/topicboxes/152047411/outfit2.jpg",
+        "id":"2"
+      }
+    ]
+  }
+}

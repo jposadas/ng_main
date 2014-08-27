@@ -1,0 +1,260 @@
+{  
+  "payload":{  
+    "id":152048164,
+    "name":"Weekend Cruise",
+    "outfits":[  
+      {  
+        "items":[  
+          {  
+            "id":152048165,
+            "brand":"Selected Homme",
+            "color":"rot",
+            "title":"Selected Homme One Cody Red Blazer rot",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/109913425@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/109913425@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/109913425@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/109913425@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/109913425@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/109913425@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152048166,
+            "brand":"Solid",
+            "color":"blau",
+            "title":"Solid Shirt - Hastings blau",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/71095878@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/71095878@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/71095878@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/71095878@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/71095878@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/71095878@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152048167,
+            "brand":"DOCKERS",
+            "color":"weiß",
+            "title":"DOCKERS Linen Shirt weiß",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/130778875@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/130778875@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/130778875@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/130778875@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/130778875@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/130778875@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152048168,
+            "brand":"Levi's®",
+            "color":"weiß",
+            "title":"Levi's® 2 Pack V Neck Tee Slim Fit weiß",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/246264@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/246264@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/246264@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/246264@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/246264@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/246264@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152048169,
+            "brand":"Drykorn",
+            "color":"beige",
+            "title":"Drykorn HOOP_2 beige",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/129313932@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/129313932@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/129313932@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/129313932@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/129313932@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/129313932@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152048170,
+            "brand":"Solid",
+            "color":"blau",
+            "title":"Solid Hertz blau",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/120125076@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/120125076@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/120125076@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/120125076@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/120125076@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/120125076@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152048171,
+            "brand":"Gant",
+            "color":"beige",
+            "title":"Gant Prince beige",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/128216711@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/128216711@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/128216711@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/128216711@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/128216711@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/128216711@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152048172,
+            "brand":"Selected Homme",
+            "color":"beige",
+            "title":"Selected Homme Bungy Belt  beige",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/4102312@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/4102312@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/4102312@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/4102312@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/4102312@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/4102312@6.1.jpeg"
+            ],
+            "price":null
+          }
+        ],
+        "imageUrl":"https://d131c71en3lye7.cloudfront.net/assets/previews/topicboxes/152048164/outfit1.jpg",
+        "id":"1"
+      },
+      {  
+        "items":[  
+          {  
+            "id":152048173,
+            "brand":"Marc O'Polo",
+            "color":"blau",
+            "title":"Marc O'Polo Cardigan button placket blau",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/62801067@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/62801067@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/62801067@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/62801067@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/62801067@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/62801067@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152048174,
+            "brand":"Seidensticker",
+            "color":"weiß",
+            "title":"Seidensticker UNO Super Slim weiß",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/12088722@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/12088722@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/12088722@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/12088722@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/12088722@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/12088722@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152048175,
+            "brand":"Polo Ralph Lauren",
+            "color":"orange",
+            "title":"Polo Ralph Lauren BD PPC SS SPT orange",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/129315605@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/129315605@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/129315605@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/129315605@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/129315605@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/129315605@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152048176,
+            "brand":"Polo Ralph Lauren",
+            "color":"weiß",
+            "title":"Polo Ralph Lauren SS SLD CMFIT MDL weiß",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/6395305@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/6395305@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/6395305@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/6395305@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/6395305@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/6395305@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152048177,
+            "brand":"Cross Jeanswear",
+            "color":"hellblau",
+            "title":"Cross Jeanswear Jack hellblau",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/128028058@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/128028058@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/128028058@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/128028058@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/128028058@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/128028058@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152048178,
+            "brand":"Polo Ralph Lauren",
+            "color":"weiß",
+            "title":"Polo Ralph Lauren Haden  weiß",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/128754315@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/128754315@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/128754315@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/128754315@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/128754315@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/128754315@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152048179,
+            "brand":"Strellson Premium",
+            "color":"dunkelbraun",
+            "title":"Strellson Premium Premium Belt 3 cm dunkelbraun",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/67784669@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/67784669@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/67784669@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/67784669@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/67784669@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/67784669@6.1.jpeg"
+            ],
+            "price":null
+          },
+          {  
+            "id":152048180,
+            "brand":"falke",
+            "color":"grau",
+            "title":"falke Familiy Sneaker grau",
+            "images":[  
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/7937914@1.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/7937914@2.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/7937914@3.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/7937914@4.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/7937914@5.1.jpeg",
+              "https://d1p75rrf0704p.cloudfront.net/images/article/large/7937914@6.1.jpeg"
+            ],
+            "price":null
+          }
+        ],
+        "imageUrl":"https://d131c71en3lye7.cloudfront.net/assets/previews/topicboxes/152048164/outfit2.jpg",
+        "id":"2"
+      }
+    ]
+  }
+}

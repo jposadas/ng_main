@@ -1,0 +1,260 @@
+{  
+   "payload":{  
+      "id":152047719,
+      "name":"Fun in the Sun",
+      "outfits":[  
+         {  
+            "items":[  
+               {  
+                  "id":152047720,
+                  "brand":"Superdry",
+                  "color":"navy",
+                  "title":"Superdry Orange label primary ziphood navy",
+                  "images":[  
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/126248673@1.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/126248673@2.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/126248673@3.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/126248673@4.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/126248673@5.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/126248673@6.1.jpeg"
+                  ],
+                  "price":null
+               },
+               {  
+                  "id":152047721,
+                  "brand":"Polo Ralph Lauren",
+                  "color":"weiß",
+                  "title":"Polo Ralph Lauren SS SLD CMFIT MDL weiß",
+                  "images":[  
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/6395305@1.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/6395305@2.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/6395305@3.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/6395305@4.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/6395305@5.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/6395305@6.1.jpeg"
+                  ],
+                  "price":null
+               },
+               {  
+                  "id":152047722,
+                  "brand":"Otto Kern",
+                  "color":"orange",
+                  "title":"Otto Kern Polo Knopf orange",
+                  "images":[  
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/14560230@1.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/14560230@2.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/14560230@3.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/14560230@4.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/14560230@5.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/14560230@6.1.jpeg"
+                  ],
+                  "price":null
+               },
+               {  
+                  "id":152047723,
+                  "brand":"Hilfiger Denim",
+                  "color":"blau",
+                  "title":"Hilfiger Denim Hanson cn tee s/s DE blau",
+                  "images":[  
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/109817433@1.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/109817433@2.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/109817433@3.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/109817433@4.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/109817433@5.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/109817433@6.1.jpeg"
+                  ],
+                  "price":null
+               },
+               {  
+                  "id":152047724,
+                  "brand":"Strellson Sportswear",
+                  "color":"beige",
+                  "title":"Strellson Sportswear Siri- D beige",
+                  "images":[  
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/128029858@1.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/128029858@2.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/128029858@3.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/128029858@4.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/128029858@5.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/128029858@6.1.jpeg"
+                  ],
+                  "price":null
+               },
+               {  
+                  "id":152047725,
+                  "brand":"Sperry Top-Sider",
+                  "color":"dunkelbraun",
+                  "title":"Sperry Top-Sider A O 2 Eye dunkelbraun",
+                  "images":[  
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/281400@1.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/281400@2.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/281400@3.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/281400@4.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/281400@5.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/281400@6.1.jpeg"
+                  ],
+                  "price":null
+               },
+               {  
+                  "id":152047726,
+                  "brand":"Camel Active",
+                  "color":"braun",
+                  "title":"Camel Active Gürtel braun",
+                  "images":[  
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/1090998@1.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/1090998@2.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/1090998@3.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/1090998@4.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/1090998@5.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/1090998@6.1.jpeg"
+                  ],
+                  "price":null
+               },
+               {  
+                  "id":152047727,
+                  "brand":"Gant",
+                  "color":"navy",
+                  "title":"Gant Melton Basic Cap navy",
+                  "images":[  
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/12086623@1.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/12086623@2.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/12086623@3.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/12086623@4.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/12086623@5.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/12086623@6.1.jpeg"
+                  ],
+                  "price":null
+               }
+            ],
+            "imageUrl":"https://d131c71en3lye7.cloudfront.net/assets/previews/topicboxes/152047719/outfit1.jpg",
+            "id":"1"
+         },
+         {  
+            "items":[  
+               {  
+                  "id":152047728,
+                  "brand":"Naketano",
+                  "color":"grau",
+                  "title":"Naketano Birol III grau",
+                  "images":[  
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/124097871@1.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/124097871@2.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/124097871@3.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/124097871@4.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/124097871@5.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/124097871@6.1.jpeg"
+                  ],
+                  "price":null
+               },
+               {  
+                  "id":152047729,
+                  "brand":"Ben Sherman",
+                  "color":"rot",
+                  "title":"Ben Sherman romford rot",
+                  "images":[  
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/62291493@1.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/62291493@2.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/62291493@3.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/62291493@4.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/62291493@5.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/62291493@6.1.jpeg"
+                  ],
+                  "price":null
+               },
+               {  
+                  "id":152047730,
+                  "brand":"Esprit",
+                  "color":"grau",
+                  "title":"Esprit T-Shirts grau",
+                  "images":[  
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/144385650@1.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/144385650@2.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/144385650@3.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/144385650@4.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/144385650@5.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/144385650@6.1.jpeg"
+                  ],
+                  "price":null
+               },
+               {  
+                  "id":152047731,
+                  "brand":"Jack & Jones Core&Originals",
+                  "color":"blau",
+                  "title":"Jack & Jones Core&Originals superhero tee blau",
+                  "images":[  
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/62800992@1.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/62800992@2.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/62800992@3.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/62800992@4.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/62800992@5.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/62800992@6.1.jpeg"
+                  ],
+                  "price":null
+               },
+               {  
+                  "id":152047732,
+                  "brand":"Scotch & Soda",
+                  "color":"schwarz",
+                  "title":"Scotch & Soda Basic cotton/lycra v-neck tee schwarz",
+                  "images":[  
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/64301189@1.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/64301189@2.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/64301189@3.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/64301189@4.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/64301189@5.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/64301189@6.1.jpeg"
+                  ],
+                  "price":null
+               },
+               {  
+                  "id":152047733,
+                  "brand":"G-Star",
+                  "color":"grün",
+                  "title":"G-Star rudder 1/2 grün",
+                  "images":[  
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/119912419@1.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/119912419@2.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/119912419@3.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/119912419@4.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/119912419@5.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/119912419@6.1.jpeg"
+                  ],
+                  "price":null
+               },
+               {  
+                  "id":152047734,
+                  "brand":"Converse",
+                  "color":"rot",
+                  "title":"Converse ALL STAR rot",
+                  "images":[  
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/131516226@1.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/131516226@2.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/131516226@3.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/131516226@4.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/131516226@5.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/131516226@6.1.jpeg"
+                  ],
+                  "price":null
+               },
+               {  
+                  "id":152047735,
+                  "brand":"Selected Homme",
+                  "color":"blau",
+                  "title":"Selected Homme Bungy Belt  blau",
+                  "images":[  
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/4101743@1.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/4101743@2.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/4101743@3.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/4101743@4.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/4101743@5.1.jpeg",
+                     "https://d1p75rrf0704p.cloudfront.net/images/article/large/4101743@6.1.jpeg"
+                  ],
+                  "price":null
+               }
+            ],
+            "imageUrl":"https://d131c71en3lye7.cloudfront.net/assets/previews/topicboxes/152047719/outfit2.jpg",
+            "id":"2"
+         }
+      ]
+   }
+}
