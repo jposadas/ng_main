@@ -13,7 +13,7 @@ header {
 
 .stateLoader {
 	position: fixed;
-	top: 20px;
+	top: 100px;
 	left: 20px;
 	z-index: 2048;
 }
@@ -42,7 +42,6 @@ background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	/*min-height: 300px;*/
 	padding-top: 50px;
 	padding-bottom: 80px;
 	text-align: center;
@@ -84,6 +83,10 @@ background-size: contain;
 .more-outfits {
 	margin-top: 70px;
 	margin-bottom: 100px;
+}
+.more-outfits .btn {
+	width: 100%;
+	margin-bottom: 30px;
 }
 
 /* Side notes for calling out things

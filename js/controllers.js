@@ -1,6 +1,13 @@
 var appControllers = angular.module('appControllers', []);
 
-appControllers.controller('main', ['$scope', '$rootScope', 'mainData', function($scope, $rootScope, mainData) {
+appControllers.controller('main', ['$scope', '$rootScope', 'mainData', 'AuthService', function($scope, $rootScope, mainData, AuthService) {
+
+	// Authentication
+	$scope.currentUser = null;
+	$scope.isAuthenticated = AuthService.isAuthenticated();
+	$scope.setCurrentUser = function(user) {
+		$scope.currentUser = user;
+	};
 
 	$scope.isStateLoading = true;
 
@@ -113,8 +120,13 @@ appControllers.controller('submitCtrl', ['$scope', '$rootScope',  '$window', '$s
 
 }]);
 
-appControllers.controller('bannerCtrl', ['$scope', 'tmpData', function($scope, tmpData) {
-	tmpData.clearData();
+appControllers.controller('bannerCtrl', ['$scope', '$state', 'tmpData', 'mainData', function($scope, $state, tmpData, mainData) {
+	var token = mainData.getValue("X-Auth-Token");
+	if (token === undefined) {
+		$state.go('signin');
+
+	}tmpData.clearData();
+
 }]);
 
 appControllers.controller('bannerListCtrl', ['$scope', '$http', 'tmpData', function($scope, $http, tmpData) {
@@ -136,9 +148,24 @@ appControllers.controller('bannerOutfitCtrl', ['$scope', '$stateParams', '$http'
 		tmpData.pushData(id, true);
 	};
 	$scope.itemStatus = function(id) {
-		// return !!tmpData.getData(id);
-		// console.log(id + ': ' + !!tmpData.getValue(id));
 		return tmpData.getValue(id)
 	};
 
+}]);
+
+appControllers.controller('signinCtrl', ['$scope', '$http', 'mainData', '$state', function($scope, $http, mainData, $state) {
+	$scope.login = function(credentials) {
+		$http({
+			method: 'GET',
+			url: 'api/customers/auth/get.json',
+			params: {
+				email: credentials.email,
+				password: credentials.password
+			}
+		}).success(function(data) {
+			mainData.pushData("customerId", data.payload.id);
+			mainData.pushData("X-Auth-Token", "96a484c41e784489aa4753e3a644036a")
+			$state.go('banner.list');
+		});
+	};
 }]);

@@ -2,7 +2,7 @@ var app = angular.module('outfittery', ['ui.router', 'appControllers', 'appServi
 
 app.config(['$urlRouterProvider', '$stateProvider', function($urlRouterProvider, $stateProvider) {
 
-	$urlRouterProvider.when('', 'questionnaire/question1');
+	$urlRouterProvider.when('', 'signin');
 
 	$stateProvider
 		.state('questionnaire', {
@@ -54,6 +54,10 @@ app.config(['$urlRouterProvider', '$stateProvider', function($urlRouterProvider,
 		.state('banner.outfit', {
 			url: '/outfit/:id',
 			templateUrl: 'templates/banner.outfit.html'
+		})
+		.state('signin', {
+			url: '/signin',
+			templateUrl: 'templates/signin.html'
 		});
 
 }]);
