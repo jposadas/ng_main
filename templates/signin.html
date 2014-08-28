@@ -1,0 +1,25 @@
+<div class="navbar navbar-inverse navbar-fixed-top" id="navbar" ng-controller="bannerCtrl">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand logo visible-loggedIn" href="#/banner"><span class="hidden">OUTFITTERY</span></a>
+        </div>
+    </div>
+</div>
+
+<section class="mt-nav container" ng-controller="signinCtrl">
+	<div class="row">
+		<div class="col-md-5">
+			<form class="form" ng-submit="login(credentials)">
+				<div class="form-group">
+					<input type="email" ng-model="credentials.email" class="form-control" placeholder="Enter email">
+				</div>
+				<div class="form-group">
+					<input type="password" ng-model="credentials.password" class="form-control" placeholder="Password">
+				</div>
+				<div class="form-group">
+					<button type="submit" class="btn btn-white-primary btn-primary">Submit</button> 
+				</div>
+			</form>
+		</div>
+	</div>
+</section>
