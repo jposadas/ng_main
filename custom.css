@@ -92,6 +92,24 @@ background-size: contain;
 .text-white {
 	color: white;
 }
+.mt {
+	margin-top: 25px;
+}
+.mb {
+	margin-bottom: 25px;
+}
+.mt-xl {
+	margin-top: 75px;
+}
+
+.strikethrough {
+	margin-top: -40px;
+	border-bottom: 1px solid #dedede;
+}
+
+.center {
+	margin: 0 auto;
+}
 
 /* Side notes for calling out things
 -------------------------------------------------- */
