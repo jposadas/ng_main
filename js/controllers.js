@@ -1,32 +1,28 @@
 var appControllers = angular.module('appControllers', []);
 
-appControllers.controller('main', ['$scope', '$rootScope', 'mainData', 'AuthService', function($scope, $rootScope, mainData, AuthService) {
+appControllers.controller('main', ['$scope', '$rootScope', '$state', 'mainData', 'AUTH_EVENTS', 'Auth', 'Session',
+	function($scope, $rootScope, $state, mainData, AUTH_EVENTS, Auth, Session) {
 
 	// Authentication
-	$scope.currentUser = null;
-	$scope.isAuthenticated = AuthService.isAuthenticated();
+	$scope.currentUser = Session.getUser() || null;
+	console.log(typeof $scope.currentUser);
+	$scope.authEvents = AUTH_EVENTS;
 	$scope.setCurrentUser = function(user) {
+		console.log(user);
 		$scope.currentUser = user;
 	};
 
-	$scope.isStateLoading = true;
+	$scope.isStateLoading = false;
+
+	$rootScope.$on($scope.authEvents.loginSuccess, function() {
+		$state.go('banner.list');
+	});
 
 	$scope.$on('switchingRegistrationPart', function(event, args) {
 		for(key in args) {
 			mainData.pushData(key, args[key]);
 		}
 	});
-
-	$rootScope.$on('$stateChangeStart', 
-		function(event, toState, toParams, fromState, fromParams){
-			console.log("CHANGING STATES");
-			$scope.isStateLoading = true;
-		});
-	$rootScope.$on('$stateChangeSuccess', 
-		function(event, toState, toParams, fromState, fromParams){
-			console.log("CHANGING STATES FINISHED");
-			$scope.isStateLoading = false;
-		});
 
 }]);
 
@@ -120,13 +116,9 @@ appControllers.controller('submitCtrl', ['$scope', '$rootScope',  '$window', '$s
 
 }]);
 
-appControllers.controller('bannerCtrl', ['$scope', '$state', 'tmpData', 'mainData', function($scope, $state, tmpData, mainData) {
-	var token = mainData.getValue("X-Auth-Token");
-	if (token === undefined) {
-		$state.go('signin');
-
-	}tmpData.clearData();
-
+appControllers.controller('bannerCtrl', ['$scope', 'tmpData', 'Session', function($scope, tmpData, Session) {
+	tmpData.clearData();
+	// $scope.setCurrentUser(Session.getUser());
 }]);
 
 appControllers.controller('bannerListCtrl', ['$scope', '$http', 'tmpData', function($scope, $http, tmpData) {
@@ -153,19 +145,14 @@ appControllers.controller('bannerOutfitCtrl', ['$scope', '$stateParams', '$http'
 
 }]);
 
-appControllers.controller('signinCtrl', ['$scope', '$http', 'mainData', '$state', function($scope, $http, mainData, $state) {
+appControllers.controller('loginCtrl', ['$scope', '$rootScope', 'Auth', function($scope, $rootScope, Auth) {
 	$scope.login = function(credentials) {
-		$http({
-			method: 'GET',
-			url: 'api/customers/auth/get.json',
-			params: {
-				email: credentials.email,
-				password: credentials.password
-			}
-		}).success(function(data) {
-			mainData.pushData("customerId", data.payload.id);
-			mainData.pushData("X-Auth-Token", "96a484c41e784489aa4753e3a644036a")
-			$state.go('banner.list');
-		});
+		Auth.login(credentials)
+			.then(function(data) {
+				$scope.setCurrentUser(data);
+				$rootScope.$broadcast($scope.authEvents.loginSuccess);
+			}, function(error) {
+				console.log(error);
+			});
 	};
 }]);

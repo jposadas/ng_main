@@ -46,35 +46,58 @@ appServices.constant('AUTH_EVENTS', {
 	notAuthenticated: 'auth-not-authenticated'
 });
 
-appServices.factory('AuthService', ['$http', 'Session', function($http, Session) {
-	
-	var authService = {};
+appServices.factory('Auth', ['$http', '$q', 'Session', function($http, $q, Session) {
 
-	authService.login = function(credentials) {
-		return $http.get('api/customers/auth/get.json', credentials).then(function(res) {
-			Session.create(res.id, res.user.id);
-			return res.user;
-		});
+	var Authentication = {};
+
+	Authentication.login = function(credentials) {
+
+		var deferred = $q.defer();
+		$http.get('api/customers/auth/get.json', credentials)
+			.then(function(result) {
+
+				$http.get('api/customers/get.json', {id: result.data.payload.id})
+					.then(function(result) {
+						Session.create(result.data.payload);
+						deferred.resolve(Session.getUser());
+					}, function(error) {
+						deferred.reject(error);
+					});
+				
+			}, function(error) {
+				deferred.reject(error);
+			});
+
+		return deferred.promise;
+
 	};
 
-	authService.isAuthenticated = function() {
-		return !!Session.userId;
+	Authentication.isAuthenticated = function() {
+		return !!Session.getUser();
 	};
 
-	return authService;
+	return Authentication;
 
 }]);
 
-appServices.service('Session', [function() {
-	this.create = function(sessionId, userId) {
-		this.id = sessionId;
-		this.userId = userId;
+appServices.factory('Session', ['$window', function($window) {
+	
+	var key = "userInfo";
+	var Session = {};
+
+	Session.create = function(userInfo) {
+		$window.sessionStorage.setItem(key, JSON.stringify(userInfo));
 	};
-	this.destroy = function() {
-		this.id = null;
-		this.userId = null;
+
+	Session.getUser = function() {
+		return JSON.parse($window.sessionStorage.getItem(key));
 	};
-	return this;
+	Session.destroy = function() {
+		$window.sessionStorage[key] = null;
+	};
+
+	return Session;
+
 }]);
 
 
