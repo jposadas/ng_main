@@ -74,7 +74,7 @@ background-size: contain;
 	border-color: #2880a3;
 }
 .btn-black-primary {
-	color: #cdcdcd !important;
+	color: #2880a3 !important;
 	background-color: #000;
 	border-color: #2880a3;
 }
@@ -134,6 +134,7 @@ background-size: contain;
 .navbar-nav>li>h4 {
 	padding-top: 12px;
 	padding-bottom: 12px;
+	letter-spacing: 1px;
 }
 .navbar-header {
 	padding-top: 3px;

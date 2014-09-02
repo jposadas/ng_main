@@ -12,6 +12,10 @@ appControllers.controller('main', ['$scope', '$rootScope', '$state', 'mainData',
 		$scope.currentUser = user;
 	};
 
+	$scope.changeState = function(state) {
+		$state.go(state);
+	};
+
 	$scope.isStateLoading = false;
 
 	$rootScope.$on($scope.authEvents.loginSuccess, function() {
@@ -116,9 +120,13 @@ appControllers.controller('submitCtrl', ['$scope', '$rootScope',  '$window', '$s
 
 }]);
 
-appControllers.controller('bannerCtrl', ['$scope', 'tmpData', 'Session', function($scope, tmpData, Session) {
+appControllers.controller('bannerCtrl', ['$scope', 'tmpData', 'Auth', function($scope, tmpData, Auth) {
 	tmpData.clearData();
-	// $scope.setCurrentUser(Session.getUser());
+	$scope.logout = function() {
+		Auth.logout();
+		$scope.setCurrentUser(null);
+		$scope.changeState('login');
+	};
 }]);
 
 appControllers.controller('bannerListCtrl', ['$scope', '$http', 'tmpData', function($scope, $http, tmpData) {

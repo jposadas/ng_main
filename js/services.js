@@ -72,6 +72,10 @@ appServices.factory('Auth', ['$http', '$q', 'Session', function($http, $q, Sessi
 
 	};
 
+	Authentication.logout = function() {
+		Session.destroy();
+	};
+
 	Authentication.isAuthenticated = function() {
 		return !!Session.getUser();
 	};
