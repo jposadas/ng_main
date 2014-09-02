@@ -2,13 +2,22 @@
 
     <div class="container">
         <div class="navbar-header">
-            <a class="navbar-brand logo visible-loggedIn" href="#/banner"><span class="hidden">OUTFITTERY</span></a>
+        	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	          	<span class="icon-bar"></span>
+	          	<span class="icon-bar"></span>
+	          	<span class="icon-bar"></span>
+        	</button>
+            <a class="navbar-brand logo visible-loggedIn" href="#/banner/list"><span class="hidden">OUTFITTERY</span></a>
         </div>
         <div class="navbar-collapse collapse">
-            <div class="nav navbar-nav navbar-right">
-           		<h4 class="text-white">Hello, <strong>{{currentUser.firstName}}!</strong></h4>
-           		<a href="#/logout">[logout]</a>
-            </div>
+            <ul class="nav navbar-nav navbar-right text-white text-uppercase">
+           		<li>
+              		<h4>Hello, <strong><span ng-bind="currentUser.firstName"></span>!</strong></h4>
+              	</li>
+              	<li>
+					<a href="#logout" class="btn btn-primary btn-black-primary">Logout</a>
+              	</li>
+      		</ul>
       	</div>
     </div>
 

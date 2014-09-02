@@ -98,16 +98,18 @@ app.config(['$urlRouterProvider', '$stateProvider', function($urlRouterProvider,
 
 }]);
 
-app.run(['$rootScope', '$location', 'Auth', function($rootScope, $location, Auth) {
+app.run(['$rootScope', '$state', 'Auth', function($rootScope, $state, Auth) {
 
 	$rootScope.$on('$stateChangeStart', function(event, toState, toParams, fromState, fromParams) {
 		console.log('Changing state');
-		console.log(toState.data.auth);
+		console.log(toState);
+		if (toState.name === 'login' && Auth.isAuthenticated()) $state.go('banner.list');
 		if (toState.data.auth) {
 			console.log(Auth.isAuthenticated());
 			if (!Auth.isAuthenticated()) {
+				console.log('Going to login!! wiii');
 				event.preventDefault();
-				$location.path('/login');
+				$state.go('login');
 			}
 		}
   	});
