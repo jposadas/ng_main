@@ -8,7 +8,6 @@ appControllers.controller('main', ['$scope', '$rootScope', '$state', 'mainData',
 	console.log(typeof $scope.currentUser);
 	$scope.authEvents = AUTH_EVENTS;
 	$scope.setCurrentUser = function(user) {
-		console.log(user);
 		$scope.currentUser = user;
 	};
 
@@ -22,16 +21,10 @@ appControllers.controller('main', ['$scope', '$rootScope', '$state', 'mainData',
 		$state.go('banner.list');
 	});
 
-	$scope.$on('switchingRegistrationPart', function(event, args) {
-		for(key in args) {
-			mainData.pushData(key, args[key]);
-		}
-	});
-
 }]);
 
-appControllers.controller('registrationCtrl', ['$scope', '$rootScope', 'tmpData', '$state', 
-	function($scope, $rootScope, tmpData, $state) {
+appControllers.controller('registrationCtrl', ['$scope', '$rootScope', 'tmpData', '$state', 'Registration',
+	function($scope, $rootScope, tmpData, $state, Registration) {
 	
 	tmpData.clearData();
 
@@ -43,31 +36,35 @@ appControllers.controller('registrationCtrl', ['$scope', '$rootScope', 'tmpData'
 	});
 
 	$scope.$on('finishedRegistration', function(event) {
-		$rootScope.$broadcast('switchingRegistrationPart', {registration: tmpData.getData()});
-		$state.go('banner.list');
+		// $rootScope.$broadcast('switchingRegistrationPart', {registration: tmpData.getData()});
+		// $state.go('banner.list');
+		Registration.create(tmpData.getData())
+			.then(function(data) {
+				console.log(data);
+				window.alert('Thanks for registering');
+				$scope.setCurrentUser(data);
+				$rootScope.$broadcast($scope.authEvents.loginSuccess);
+			}, function(error) {
+				console.debug('Registering Error');
+			});
 	});
 
 }]);
 
 appControllers.controller('regStep', ['$scope', '$rootScope', '$state', function($scope, $rootScope, $state) {
-	$scope.salutation = 'Herr';
-	$scope.addInfo = function(salutation, firstName, lastName) {
-		$rootScope.$broadcast('regInfoEntered', {
-			salutation: salutation, 
-			firstName: firstName, 
-			lastName: lastName
-		});
+	$scope.credentials = {};
+	$scope.credentials.salutation = '1';
+	$scope.addInfo = function(credentials) {
+		console.log(credentials);
+		$rootScope.$broadcast('regInfoEntered', credentials);
 		$state.go('registration.reg2');
 	};	
 }]);
 
 appControllers.controller('regStep2', ['$scope', '$rootScope', function($scope, $rootScope) {
-	$scope.addInfo = function(email, password) {
-		$rootScope.$broadcast('regInfoEntered', {
-			email: email, 
-			password: password
-		});
-		window.alert("Thanks for registering!");
+	$scope.addInfo = function(credentials) {
+		$rootScope.$broadcast('regInfoEntered', credentials);
+		// window.alert("Thanks for registering!");
 		$rootScope.$broadcast('finishedRegistration');
 	};	
 }]);

@@ -14,7 +14,6 @@ appServices.factory('tmpData', function() {
 		},
 		pushData: function(key, value) {
 			data[key] = value;
-			console.log(data);
 		},
 		clearData: function() {
 			data = {};
@@ -81,6 +80,32 @@ appServices.factory('Auth', ['$http', '$q', 'Session', function($http, $q, Sessi
 	};
 
 	return Authentication;
+
+}]);
+
+appServices.factory('Registration', ['$http', '$q', 'Session', function($http, $q, Session) {
+
+	var Registration = {};
+	Registration.create = function(credentials) {
+		var deferred = $q.defer();
+		$http.get('api/customers/post.json', credentials)
+			.then(function(result) {
+				// console.log(result);
+				$http.get('api/customers/get.json', {id: result.data.payload.id})
+					.then(function(result) {
+						Session.create(result.data.payload);
+						deferred.resolve(Session.getUser());
+					}, function(error) {
+						deferred.reject(error);
+					});
+
+			}, function(error) {
+				deferred.reject(error);
+			});
+		return deferred.promise;
+	};
+
+	return Registration;
 
 }]);
 

@@ -101,10 +101,14 @@ app.config(['$urlRouterProvider', '$stateProvider', function($urlRouterProvider,
 app.run(['$rootScope', '$state', 'Auth', function($rootScope, $state, Auth) {
 
 	$rootScope.$on('$stateChangeStart', function(event, toState, toParams, fromState, fromParams) {
+		console.log(fromState);
 		console.log('Changing state');
 		console.log(toState);
-		if (toState.name === 'login' && Auth.isAuthenticated()) $state.go('banner.list');
-		if (toState.data.auth) {
+		console.log('Is Authenticated: ' + Auth.isAuthenticated());
+		if (toState.name === 'login' && Auth.isAuthenticated()) {
+			event.preventDefault();
+			$state.go('banner.list');
+		} else if (toState.data.auth) {
 			console.log(Auth.isAuthenticated());
 			if (!Auth.isAuthenticated()) {
 				console.log('Going to login!! wiii');
